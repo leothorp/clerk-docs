@@ -2328,11 +2328,15 @@
                     "items": [
                       [
                         {
-                          "title": "useLocalCredentials()",
+                          "title": "`useLocalCredentials()`",
                           "href": "/docs/references/expo/use-local-credentials"
                         },
                         {
-                          "title": "useSSO()",
+                          "title": "`useOAuth()` (deprecated)",
+                          "href": "/docs/references/expo/use-oauth"
+                        },
+                        {
+                          "title": "`useSSO()`",
                           "href": "/docs/references/expo/use-sso"
                         }
                       ]
