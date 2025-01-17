@@ -25,7 +25,7 @@ function authenticateWithRedirect(params: AuthenticateWithRedirectParams): Promi
 
   - `oauth_<provider>`: The user will be authenticated with their social sign-in account. [See available social providers](/docs/references/javascript/types/oauth#o-auth-provider).
   - `saml`: The user will be authenticated with SAML. **Deprecated in favor of `enterprise_sso`.**
-  - `enterprise_sso`: The user will be authenticated either through SAML or OIDC, depending on the configuration of the [enterprise connection](/docs/authentication/enterprise-connections/overview) matching the identifier.
+  - `enterprise_sso`: The user will be authenticated either through SAML, EASIE or OIDC, depending on the configuration of the [enterprise connection](/docs/authentication/enterprise-connections/overview) matching the identifier.
 
   ---
 
